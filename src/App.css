@@ -85,3 +85,12 @@
   height: 100%;
   border-radius: 15px;
 }
+
+
+/*--- ABOUT CARDS --- */
+.cards-personajes{
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  flex-wrap: wrap;
+}

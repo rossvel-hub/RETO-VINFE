@@ -19,26 +19,51 @@ export const CardsMario = ({url}) => {
         <h6>Cargando</h6>
       ) : (
         <div className="card border-secondary mb-3" style={{ width: "21rem" }} >
-          <div className="card-body text-bg-dark p-3 card-style">
+           <div className="card-body text-bg-dark p-3 card-style">
             {/* <img src={data.image} class="card-img-top" alt="imagen" /> */}
-            <img src="mario6.jpeg" class="card-img-top" alt="..."></img>
+            <img src="mario6.jpeg" class="card-img-top" alt="..." />
           </div>
 
           <div className="card-header">
             <h5 className="card-title">{data.id} </h5>
-          </div>
+         </div>
 
-          <div className="card-footer p-3 card" style={{ backgroundColor: "#34E807" }}>
+          <div className="card-footer p-3 card" style={{ backgroundColor: "#75C500" }}>
             <p className="card-text">Nombre:{data.name}</p>
             <p className="card-text">Status:{data.status}</p>
             <p className="card-text">Especie:{data.species}</p>
-            <Button variant="dark" onClick={handleShow}>
-        Ver mas...
-      </Button>
-          </div>
+            <Button variant="dark" onClick={handleShow} style={{ backgroundColor: "#015EB8" }}>
+         Ver mas...
+       </Button>
+           </div>
          </div>
+
+ 
+
       )}
        <ModalCard show={show} handleClose={handleClose} />
     </div>
-  )
-}
+  );
+};
+
+
+{/* <div className="card border-secondary mb-3" style={{ width: "21rem" }} >
+<div className="card-body text-bg-dark p-3 card-style">
+* <img src={data.image} class="card-img-top" alt="imagen" /> 
+<img src="mario6.jpeg" class="card-img-top" alt="..." />
+</div>
+
+<div className="card-header">
+  <h5 className="card-title">{data.id} </h5>
+</div>
+
+<div className="card-footer p-3 card" style={{ backgroundColor: "#75C500" }}>
+<p className="card-text">Nombre:{data.title}</p>
+<p className="card-text">Status:{data.year}</p>
+<p className="card-text">Especie:{data.createdAt}</p>
+<p className="card-text">Especie:{data.updateAt}</p>
+<Button variant="dark" onClick={handleShow} style={{ backgroundColor: "#015EB8" }}>
+Ver mas...
+</Button>
+</div>
+</div> */}

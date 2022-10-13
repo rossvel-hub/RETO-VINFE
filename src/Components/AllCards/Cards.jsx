@@ -1,7 +1,9 @@
 import React from 'react'
-import { CardsMario } from './CardsMario'
+import { CardsMario } from './CardsMario';
+
 
 export const Cards = ({results}) => {
+
   return (
     <div className='container'>
        <ul className="cards">
@@ -9,12 +11,13 @@ export const Cards = ({results}) => {
           <li
             className="card-item"
             style={{ listStyle: "none" }}
-            key={p.nombre}
+            key={p.name}
           >
             <CardsMario url={p.url} />
           </li>
         ))}
       </ul> 
-    </div>
+    </div> 
+    
   )
 }

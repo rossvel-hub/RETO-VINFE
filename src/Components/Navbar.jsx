@@ -1,7 +1,28 @@
 import React from 'react'
 import { Link } from "react-router-dom";
+import { useState } from 'react';
 
 const Navbar = () => {
+
+  const [resultado, setResultado] = useState({ cargando: true, data: null });  
+  // datos dinamicos
+  // const [elemBusqueda, setElemBusqueda]= useState([]);
+  // const [busqueda, setBusqueda]=useState("");
+
+  const handleChange=e=>{
+    //setBusqueda(e.target.value);
+    //filtrar(e.target.value);
+  }
+
+  //  const filtrar=(terminoBusqueda)=>{
+  //   let resultadosBusqueda=resultado.filter((elemento)=>{
+  //   if(elemento.name.toString().toLowerCase().includes(terminoBusqueda.toLowerCase())){
+  //      return elemento;
+  //   }
+  //   });
+  //   setElemBusqueda(resultadosBusqueda);
+  //  }
+
   return (
     <div className="container">
       <nav className="navbar navbar-expand-lg bg-light">
@@ -38,11 +59,13 @@ const Navbar = () => {
             <form className="d-flex" role="search">
               <input
                 className="form-control me-2"
+                // value={busqueda}
                 type="search"
-                placeholder="Search"
+                placeholder="Buscar por titulo"
+                onChange={handleChange}
                 aria-label="Search"
               />
-              <button className="btn btn-dark" style={{backgroundColor:"#171a4a"}} type="submit">
+              <button className="btn btn-success" style={{backgroundColor:"#171a4a"}} type="submit">
                 Search
               </button>
               <button className="btn btn-dark" style={{backgroundColor:"#171a4a"}} type="submit">
