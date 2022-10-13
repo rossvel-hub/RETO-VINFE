@@ -5,15 +5,15 @@ const Carousel = () => {
          <div id="carousel" className="carousel slide" data-bs-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active" data-bs-interval="6000">
-              <img src="/mar.jpeg" className="d-block w-100" alt="chica1" />
+              <img src="/2.png" className="d-block w-100" alt="mario" />
             </div>
 
             <div className="carousel-item" data-bs-interval="6000">
-              <img src="/mar3.jpeg" className="d-block w-100" alt="poke2" />
+              <img src="/3.png" className="d-block w-100" alt="mario2" />
             </div>
 
             <div className="carousel-item" data-bs-interval="6000">
-              <img src="/mar4jpeg" className="d-block w-100" alt="poke4" />
+              <img src="/4.png" className="d-block w-100" alt="mario3" />
             </div>
           </div>
 

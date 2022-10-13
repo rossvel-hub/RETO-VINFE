@@ -30,6 +30,26 @@
   margin-bottom: 2;
 }
 
+/*--- HOME ---*/
+.custom-shape-divider-top-1665611793 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1665611793 svg {
+  position: relative;
+  display: block;
+  width: calc(202% + 1.3px);
+  height: 195px;
+}
+
+.custom-shape-divider-top-1665611793 .shape-fill {
+  fill: #F30F0F;
+}
 
 /*--- CONTACT ---*/
 .div-contacto {
@@ -42,4 +62,26 @@
 
 .div-container-contact{
   margin-right: 30px;
+}
+
+
+/*--- CARDS ---*/
+.cards {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.card-item {
+  display: flex;
+  padding: 1rem;
+}
+
+.card-footer {
+  background-color: #21a500 !important;
+  height: 100%;
+  border-radius: 15px;
 }

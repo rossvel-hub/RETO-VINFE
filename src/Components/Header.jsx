@@ -5,7 +5,7 @@ const Header = () => {
     <div className="container div-header">
     <a className="navbar-brand" href="#">
        <img
-         src="/mario.png"
+         src="/logo-mario.png"
          alt="Logo"
          width="150"
          height="70"
