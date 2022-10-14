@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import { CardsMario } from './AllCards/CardsMario';
+// import { CardsMario } from './AllCards/CardsMario';
 import UseFetch from './fetch/UseFetch'
+import { Cards } from './AllCards/Cards';
 
 
 const Container = () => {
@@ -11,8 +12,11 @@ const Container = () => {
 
   return (
     <div className="container">
-      <hr />
-      {cargando ? <h1>Cargando...</h1> : <CardsMario results={data.results} />} 
+      <br />
+      <br />
+      <br />
+      <br />
+      {cargando ? <h1>Cargando...</h1> : <Cards results={data.results} />} 
      
     </div>
   );
