@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="container">
     <div className="div-contacto"> 
       <div className="img-contacto">
-          <img src="pro.png" className="d-block w-100 img-contacto" alt="..." />
+          <img src="4.png" className="d-block w-100 img-contacto" alt="..." />
       </div>
 
 <div className="container div-container-contact">
@@ -51,8 +51,8 @@ const Contact = () => {
                       </div>
 
                       <div className="form-group">
-                          <div className="col-md-12 text-center">
-                              <button type="submit" className="btn btn-primary btn-lg" style={{marginTop: "30px", marginBottom: "30px"}}>Submit</button>
+                          <div className="col-md-12 text-center">  
+                              <button type="submit" className="btn btn-lg" style={{marginTop: "30px", marginBottom: "30px", backgroundColor: "#68D13B"}}>Submit</button>
                           </div>
                       </div>
                   </fieldset>

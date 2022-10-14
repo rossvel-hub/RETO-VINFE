@@ -1,5 +1,6 @@
 import React from 'react'
-import { CardsMario } from './CardsMario';
+import { CardsMorty } from './CardsMorty';
+
 
 
 export const Cards = ({results}) => {
@@ -13,7 +14,7 @@ export const Cards = ({results}) => {
             style={{ listStyle: "none" }}
             key={p.name}
           >
-            <CardsMario url={p.url} />
+            <CardsMorty url={p.url} />
           </li>
         ))}
       </ul> 

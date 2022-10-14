@@ -8,8 +8,7 @@ const Home = () => {
     <div className="container">
       <Carousel />
       <Wave />
-      <hr />
-      <h6>cards</h6>
+      <br />
       <Container />
     </div>
   );

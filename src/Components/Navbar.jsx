@@ -2,30 +2,38 @@ import React from 'react'
 import { Link } from "react-router-dom";
 import { useState } from 'react';
 
+import UseFetch from './fetch/UseFetch';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { faEraser } from '@fortawesome/free-solid-svg-icons';
+
 const Navbar = () => {
+  const [url, setUrl] = useState("https://rickandmortyapi.com/api/character");
+  const estado = UseFetch(url);
+  const { cargando, data } = estado;
+  console.log(data);
+  // const [resultado, setResultado] = useState({ cargando: true, data: null });  
+  const [elemBusqueda, setElemBusqueda] = useState([]);
+  const [busqueda, setBusqueda] = useState("");
 
-  const [resultado, setResultado] = useState({ cargando: true, data: null });  
-  // datos dinamicos
-  // const [elemBusqueda, setElemBusqueda]= useState([]);
-  // const [busqueda, setBusqueda]=useState("");
-
-  const handleChange=e=>{
-    //setBusqueda(e.target.value);
-    //filtrar(e.target.value);
+  const handleChange = e =>{
+   
+    setBusqueda(e.target.value);
+    filtrar(e.target.value);
   }
 
-  //  const filtrar=(terminoBusqueda)=>{
-  //   let resultadosBusqueda=resultado.filter((elemento)=>{
-  //   if(elemento.name.toString().toLowerCase().includes(terminoBusqueda.toLowerCase())){
-  //      return elemento;
-  //   }
-  //   });
-  //   setElemBusqueda(resultadosBusqueda);
-  //  }
+    const filtrar = (terminoBusqueda) => {
+      console.log("object");
+      let resultadosBusqueda = data.results.filter((elemento) => {
+        if (elemento.name.toString().toLowerCase().includes(terminoBusqueda.toLowerCase())) 
+          return elemento; 
+      });
+      setElemBusqueda(resultadosBusqueda);
+    };
 
   return (
     <div className="container">
-      <nav className="navbar navbar-expand-lg bg-light">
+      <nav className="navbar navbar-expand-lg" style={{backgroundColor: "#68D13B", borderRadius: "7px" }}>
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -59,17 +67,16 @@ const Navbar = () => {
             <form className="d-flex" role="search">
               <input
                 className="form-control me-2"
-                // value={busqueda}
+                value={busqueda}
                 type="search"
                 placeholder="Buscar por titulo"
                 onChange={handleChange}
-                aria-label="Search"
               />
               <button className="btn btn-success" style={{backgroundColor:"#171a4a"}} type="submit">
-                Search
+               <FontAwesomeIcon icon={faSearch} /> 
               </button>
               <button className="btn btn-dark" style={{backgroundColor:"#171a4a"}} type="submit">
-                Clean up
+                <FontAwesomeIcon icon={faEraser} /> 
               </button>
             </form>
           </div>

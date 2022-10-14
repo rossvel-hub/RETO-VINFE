@@ -6,14 +6,16 @@ import { Cards } from './AllCards/Cards';
 
 const Container = () => {
   const [url, setUrl] = useState("https://rickandmortyapi.com/api/character");
-  // const [url, setUrl] = useState("https://supermario-api.herokuapp.com/games");
   const estado = UseFetch(url);
   const { cargando, data } = estado;
   cargando ? console.log("cargando") : console.log(data.results);
 
   return (
     <div className="container">
-      <hr />
+      <br />
+      <br />
+      <br />
+      <br />
       {cargando ? <h1>Cargando...</h1> : <Cards results={data.results} />} 
      
     </div>
