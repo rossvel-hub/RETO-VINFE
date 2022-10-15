@@ -8,6 +8,7 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import NotFound from './Components/NotFound';
+
 function App() {
   return (
     <div className="container mt-5 container-gral">
