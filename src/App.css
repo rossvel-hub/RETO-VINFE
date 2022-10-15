@@ -61,12 +61,12 @@
   display: flex;
   padding: 1rem;
 }
-
+/*
 .card-footer {
   background-color: #21a500 !important;
   height: 100%;
   border-radius: 15px;
-}
+} */
 
 /*--- ABOUT CARDS --- */
 .cards-personajes{
@@ -117,7 +117,7 @@
   .card-body {
 	height: 255px;
 	background: #11e554;
-	border-radius: 0 0 25px 25px;
+	border-radius: 0 0 5px 5px;
   }
   
   .product-title {

@@ -22,7 +22,7 @@ const About = () => {
             Go somewhere
           </a>
         </div>
-        <div class="card-footer" style={{backgroundColor:"#6dc83d", color: "white"}}>
+        <div className="card-footer" style={{backgroundColor:"#6dc83d", color: "white"}}>
           Footer
         </div>
       </div>
@@ -36,7 +36,7 @@ const About = () => {
             Go somewhere
           </a>
         </div>
-        <div class="card-footer" style={{backgroundColor:"#6dc83d", color: "white"}}>
+        <div className="card-footer" style={{backgroundColor:"#6dc83d", color: "white"}}>
           Footer
         </div>
       </div>
@@ -51,7 +51,7 @@ const About = () => {
             Go somewhere
           </a>
         </div>
-        <div class="card-footer" style={{backgroundColor:"#6dc83d", color: "white"}}>
+        <div className="card-footer" style={{backgroundColor:"#6dc83d", color: "white"}}>
           Footer
         </div>
       </div>
@@ -66,7 +66,7 @@ const About = () => {
             Go somewhere
           </a>
         </div>
-        <div class="card-footer" style={{backgroundColor:"#6dc83d", color: "white"}}>
+        <div className="card-footer" style={{backgroundColor:"#6dc83d", color: "white"}}>
           Footer
         </div>
       </div>

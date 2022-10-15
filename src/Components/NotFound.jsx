@@ -40,7 +40,7 @@ const NotFound = () => {
               </span>
         <span className="product-color">
                 <h4>STATUS</h4>
-                <ul class="ul-color">
+                <ul className="ul-color">
                   <li><a href="#" className="orange active"></a></li>
                   <li><a href="#" className="green"></a></li>
                   <li><a href="#" className="yellow"></a></li>
