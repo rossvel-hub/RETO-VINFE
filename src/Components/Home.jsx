@@ -7,8 +7,7 @@ const Home = () => {
   return (
     <div className="container">
       <Carousel />
-      <Wave />
-      <br />
+      {/* <Wave /> */}
       <Container />
     </div>
   );

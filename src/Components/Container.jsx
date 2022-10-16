@@ -8,10 +8,7 @@ const Container = () => {
 
   return (
     <div className="container">
-      <br />
-      <br />
-      <br />
-      <br />
+      <hr />
       {resultados.cargando ? <h1>Cargando...</h1> : <Cards results={resultados.data} />}
     </div>
   );

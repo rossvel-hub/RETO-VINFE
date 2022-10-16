@@ -15,15 +15,15 @@
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  height: 213px;
-  margin-top: auto;
-  margin-bottom: 20px;
+  height: 113px;
+  margin-top: -45px;
+  margin-bottom: 0px;
   background-color: #171a4a;
 }
 
 .img-header{
-  height: 210px;
-  width: 210px;
+  height: 100px;
+  width: 100px;
 }
 
 .redes-section {
@@ -43,8 +43,11 @@
 }
 
 .div-container-contact{
+	display: flex;
+	flex-direction: column;
   margin-right: 30px;
 }
+
 
 
 /*--- CARDS ---*/
@@ -61,19 +64,14 @@
   display: flex;
   padding: 1rem;
 }
-/*
-.card-footer {
-  background-color: #21a500 !important;
-  height: 100%;
-  border-radius: 15px;
-} */
 
 /*--- ABOUT CARDS --- */
 .cards-personajes{
-  display: flex;
-  flex-direction: row;
-  align-content: center;
-  flex-wrap: wrap;
+	display: flex;
+    flex-direction: row;
+    align-content: center;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 /* NF CARDS*/
@@ -116,7 +114,7 @@
   
   .card-body {
 	height: 255px;
-	background: #11e554;
+	background: hsl(55, 85%, 65%);
 	border-radius: 0 0 5px 5px;
   }
   
@@ -259,10 +257,11 @@
 	font-size: 22∫px;
 	font-weight: 200;
 	color: #fff;
-	border-radius: 7px;
+	border-radius: 50px;
 	margin-top: 50px;
 	margin-left: -50px;
 	box-shadow: -10px 20px 15px -10px rgba(17, 233, 91, 0.3);
+	height: 80px;
   }
   
   .product-price b {

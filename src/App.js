@@ -15,7 +15,6 @@ function App() {
       <Router>
         <Header />
         <Navbar />
-        <br />
         <Routes>
           <Route exact path='/' element={<Home />} />
           <Route exact path="/about" element={<About />} />

@@ -6,11 +6,6 @@ const About = () => {
       <div className="img-contacto">
         <img src="5.png" className="d-block w-100 img-contacto" alt="..." />
       </div>
-      <div>
-        <p>
-          ......nuestra historia
-        </p>
-      </div>
       <div className="container cards-personajes">
       <div className="card mb-4" style={{ width: "18rem", margin:"10px" }}>
         <img src="per4.png" className="card-img-top" alt="..." />
@@ -23,7 +18,7 @@ const About = () => {
           </a>
         </div>
         <div className="card-footer" style={{backgroundColor:"#6dc83d", color: "white"}}>
-          Footer
+        R&M
         </div>
       </div>
       <div className="card mb-4" style={{ width: "18rem", margin:"10px" }}>
@@ -37,7 +32,7 @@ const About = () => {
           </a>
         </div>
         <div className="card-footer" style={{backgroundColor:"#6dc83d", color: "white"}}>
-          Footer
+          R&M
         </div>
       </div>
 
@@ -52,7 +47,7 @@ const About = () => {
           </a>
         </div>
         <div className="card-footer" style={{backgroundColor:"#6dc83d", color: "white"}}>
-          Footer
+        R&M
         </div>
       </div>
 
@@ -67,7 +62,7 @@ const About = () => {
           </a>
         </div>
         <div className="card-footer" style={{backgroundColor:"#6dc83d", color: "white"}}>
-          Footer
+        R&M
         </div>
       </div>
 

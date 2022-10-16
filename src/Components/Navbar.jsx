@@ -28,8 +28,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="container">
-      <nav className="navbar navbar-expand-lg" style={{backgroundColor: "#68D13B", borderRadius: "7px" }}>
+      <nav className="navbar navbar-expand-lg" style={{backgroundColor: "#263C64", borderRadius: "3px",  }}>
         <div className="container-fluid">
           <button
             className="navbar-toggler"
@@ -75,7 +74,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </div>
+    
   )
 }
 

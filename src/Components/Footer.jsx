@@ -81,124 +81,70 @@ const Footer = () => {
                   Subscribe
                 </button>
               </div>
+              <div>
+              <img
+                src="/morty-logo.png"
+                alt="Logo"
+                width="150"
+                height="70"
+                className="d-inline-block align-text-top img-header"
+              />
+              </div>
             </div>
           </form>
         </section>
 
         <section className="mb-4">
           <p>
-            Yo tengo el sueño de que un día cada valle será exaltado, cada
-            colina y montaña será bajada, los sitios escarpados serán aplanados
-            y los sitios sinuosos serán enderezados, y que la gloria del Señor
-            será revelada y toda la carne la verá al unísono.
+          Sé que esta situación puede ser intimidante. Miras a tu alrededor y todo da miedo y es diferente, pero ¿sabes qué? ... hay que encarar esas situaciones, avanzar contra ellas como un toro - es así que crecemos como personas.
+          "Rick Sanchez"
           </p>
         </section>
 
         <section className="">
           <div className="row">
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Data</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 4
+                  <a href="https://rickandmortyapi.com/api/character" className="text-white" target="_blank">
+                    Ver mas...
                   </a>
                 </li>
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">Documentacion</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 4
+                  <a href="https://rickandmortyapi.com/documentation/#character-schema" className="text-white" target="_blank">
+                  Ver mas...
                   </a>
                 </li>
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
-
+              <h5 className="text-uppercase">repositorio</h5>
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 4
+                  <a href="https://github.com/rossvel-hub/RETO-VINFE" className="text-white" target="_blank">
+                  Ver mas...
                   </a>
                 </li>
               </ul>
             </div>
 
             <div className="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 className="text-uppercase">Links</h5>
+              <h5 className="text-uppercase">historia R&M</h5>
 
               <ul className="list-unstyled mb-0">
                 <li>
-                  <a href="#!" className="text-white">
-                    Link 1
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 2
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 3
-                  </a>
-                </li>
-                <li>
-                  <a href="#!" className="text-white">
-                    Link 4
+                  <a href="https://es.wikipedia.org/wiki/Rick_y_Morty#:~:text=La%20serie%20sigue%20las%20desventuras,viajes%20espaciales%2C%20temporales%20e%20intergal%C3%A1cticos." className="text-white" target="_blank">
+                  Ver mas...
                   </a>
                 </li>
               </ul>
