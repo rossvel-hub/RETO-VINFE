@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import './App.css';
-import Footer from './Components/Footer';
-import Header from './Components/Header';
-import Navbar from './Components/Navbar';
-import Home from './Components/Home';
-import About from './Components/About';
-import Contact from './Components/Contact';
-import NotFound from './Components/NotFound';
+import "./App.css";
+import Footer from "./Components/Footer";
+import Header from "./Components/Header";
+import Navbar from "./Components/Navbar";
+import Home from "./Components/Home";
+import About from "./Components/About";
+import Contact from "./Components/Contact";
+import NotFound from "./Components/NotFound";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         <Header />
         <Navbar />
         <Routes>
-          <Route exact path='/' element={<Home />} />
+          <Route exact path="/" element={<Home />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Contact />} />
           <Route path="*" element={<NotFound />} />
