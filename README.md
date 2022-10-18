@@ -1,6 +1,8 @@
-Deploy [Deploy](ttps://playful-fudge-df053d.netlify.app/)
+
 
 # Getting Started with Create React App
+
+## Deployment of the project here [Deploy](https://playful-fudge-df053d.netlify.app/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
