@@ -2,7 +2,7 @@
 
 # Getting Started with Create React App
 
-## Deployment of the project here [Deploy](https://playful-fudge-df053d.netlify.app/).
+## Deployment of the project here [Deploy](https://timely-duckanoo-a01957.netlify.app).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
